@@ -1,0 +1,22 @@
+Name: Theodoros Konstantopoulos
+ID: 827449875
+
+Section I:
+- Import the project (src folder) in an IDE (such as Eclipse or IntelliJ)
+- Copy the "Project3Dataset-A" and "Project3Dataset-B" directory (dataset) in the working directory
+- Setup SDK (JRE: JavaSE-1.8)
+- Run the main method in the Main.java file
+
+The program will not terminate unless an invalid command is given or it is stopped.
+
+Section II:
+Tests:
+SELECT A.Col1, A.Col2, B.Col1, B.Col2 FROM A, B WHERE A.RandomV = B.RandomV
+SELECT count(*) FROM A, B WHERE A.RandomV > B.RandomV
+SELECT Col2, SUM(RandomV) FROM A GROUP BY Col2
+SELECT Col2, SUM(RandomV) FROM B GROUP BY Col2
+SELECT Col2, AVG(RandomV) FROM A GROUP BY Col2
+SELECT Col2, AVG(RandomV) FROM B GROUP BY Col2
+
+Section III:
+-
